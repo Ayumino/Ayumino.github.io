@@ -1,0 +1,38 @@
+ .header {
+        width: 100%;
+        height: 25%;
+        background-color:rgb(211, 215, 216);
+    }
+
+    .sitebar {
+        width: 40%;
+        height: 50%;
+        background-color:rgb(83, 72, 177);
+        float: left;
+    }
+     .content {
+        width: 60%;
+        height: 50%;
+        background-color: rgb(83, 72, 177);
+        margin-left: 500px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 25%;
+        background-color:rgb(241, 246, 248);
+    }
+    .text {
+    text-align:  center;
+    color: aliceblue;
+    }
+    ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 200px; /* Отступ слева */
+    border: 1px solid #000; /* Рамка вокруг текста */
+    padding: 3px; /* Поля вокруг текста */
+   }
